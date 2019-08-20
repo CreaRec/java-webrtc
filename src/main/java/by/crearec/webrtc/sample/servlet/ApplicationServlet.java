@@ -1,4 +1,4 @@
-package com.github.joelbars.servlet;
+package by.crearec.webrtc.sample.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.websocket.Session;
 
-import com.github.joelbars.Room;
+import by.crearec.webrtc.sample.Room;
 
 @WebServlet(urlPatterns = "/app")
 public class ApplicationServlet extends HttpServlet {

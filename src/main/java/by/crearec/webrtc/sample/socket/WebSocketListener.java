@@ -1,9 +1,8 @@
-package com.github.joelbars.socket;
+package by.crearec.webrtc.sample.socket;
 
 import static java.util.Collections.emptySet;
 
 import java.io.IOException;
-import java.io.StringReader;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentMap;
@@ -19,10 +18,10 @@ import javax.websocket.Session;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 
-import com.github.joelbars.Room;
-import com.github.joelbars.model.Message;
-import com.github.joelbars.util.MessageDecoder;
-import com.github.joelbars.util.MessageEncoder;
+import by.crearec.webrtc.sample.Room;
+import by.crearec.webrtc.sample.util.MessageDecoder;
+import by.crearec.webrtc.sample.util.MessageEncoder;
+import by.crearec.webrtc.sample.model.Message;
 
 @ServerEndpoint(value = "/server/{room}", encoders = {MessageEncoder.class}, decoders = {MessageDecoder.class})
 public class WebSocketListener {

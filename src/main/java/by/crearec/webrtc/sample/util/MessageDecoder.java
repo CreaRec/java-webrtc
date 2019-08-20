@@ -1,6 +1,6 @@
-package com.github.joelbars.util;
+package by.crearec.webrtc.sample.util;
 
-import com.github.joelbars.model.Message;
+import by.crearec.webrtc.sample.model.Message;
 
 import javax.json.Json;
 import javax.json.JsonException;

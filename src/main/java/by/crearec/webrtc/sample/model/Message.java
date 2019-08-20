@@ -1,4 +1,4 @@
-package com.github.joelbars.model;
+package by.crearec.webrtc.sample.model;
 
 import javax.json.Json;
 import javax.json.JsonObject;

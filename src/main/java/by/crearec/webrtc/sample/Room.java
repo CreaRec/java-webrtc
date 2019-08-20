@@ -1,4 +1,4 @@
-package com.github.joelbars;
+package by.crearec.webrtc.sample;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
